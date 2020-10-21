@@ -1,1 +1,49 @@
-test
+
+<!-- This is ONLY the template HTML for everyone to use as the foundation for their 
+page. I'll comment everything so everyone understands. Also put comments in where things will
+be different for each page. -->
+
+<!doctype html>
+
+<html>
+
+	<head>
+	
+		<title><!-- Insert page title here --></title>
+		
+		<link rel="stylesheet"
+			  href=""<!--insert path to styles-->
+	
+	
+	</head>
+	
+	<body>
+	
+		<div class="header"> 
+		
+			<div class="logo">
+				<img src="logo.jpg" alt="Society Logo">
+			</div>
+						
+			<div class="nav">
+				<ul class="mainNav">
+				
+					<li>
+						<a href="#">Home</a>
+						<a href="#">Home</a>
+						<a href="#">Home</a>
+						<a href="#">Home</a>
+						<a href="#">Home</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		
+		<div class="bodyWrapper">
+		
+		</div>
+	
+	</body>
+	
+</html>
