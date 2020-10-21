@@ -1,9 +1,10 @@
 
+<!DOCTYPE html>
+
 <!-- This is ONLY the template HTML for everyone to use as the foundation for their 
 page. I'll comment everything so everyone understands. Also put comments in where things will
 be different for each page. -->
 
-<!DOCTYPE html>
 
 <html>
 
@@ -12,7 +13,7 @@ be different for each page. -->
 		<title><!-- Insert page title here --></title>
 		
 		<link rel="stylesheet"
-			  href=""<!--insert path to styles-->
+			  href="templateStyles.css"<!--insert path to styles-->
 	
 	
 	</head>
