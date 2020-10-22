@@ -7,7 +7,11 @@
 }
 
 .nav {
-	padding-left: 300px;
+
+	list-style-type: none;
+	position: absolute;
+	right: 20px;
+	display: inline-block;
 }
 
 .mainNav {
