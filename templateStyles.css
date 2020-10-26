@@ -1,21 +1,59 @@
-.header {
-	
+.headerWrapper {
+	background-color: green;
 }
 
 .logo {
+	
+	float: left;
 
+}
+
+li {
+	
+	margin: 5px;
+}
+
+a{
+	
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
 }
 
 .nav {
 
-
-	
-
-	position: absolute;
-	right: 20px;
-	display: inline-block;
+	float: right;
+	margin-right: 30px;
+	background-color: blue;
+	margin-top: 50px;
 }
 
 .mainNav {
+	list-style: none;
+	padding: 0;
+	display:inline;
+	text-decoration: none;
+}
+
+.mainNav > li {
+	
+	display:inline;
+}
+
+.dropdown {
+	
+	position: absolute;
+	display:none;
+	background-color: green;
+	padding: 10px;
+
+	
+}
+
+
+li:hover .dropdown{
+	
+	display:block;
+	list-style-type:none;
 	
 }
