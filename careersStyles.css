@@ -1,0 +1,99 @@
+body{
+	background-color: #353635;
+}
+
+.headerWrapper {
+	background-color: lime;
+}
+
+.logo {
+	
+	float: left;
+
+}
+
+li {
+	
+	margin: 5px;
+}
+
+a{
+	
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+}
+
+.nav {
+
+	float: right;
+	margin-right: 30px;
+	background-color: lime;
+	margin-top: 50px;
+}
+
+.mainNav {
+	list-style: none;
+	padding: 0;
+	display:inline;
+	text-decoration: none;
+}
+
+.mainNav > li {
+	
+	display:inline;
+}
+
+.dropdown {
+	
+	position: absolute;
+	display:none;
+	background-color: green;
+	padding: 10px;
+
+	
+}
+
+
+li:hover .dropdown{
+	
+	display:block;
+	list-style-type:none;
+	
+}
+
+.career1{
+    background-color: green;
+    margin-top: 25px;
+    float: left;
+}
+
+.pic6{
+    float:right;
+    padding:10px;
+}
+
+.h1,h2,p,h3{
+    font-family: helvetica;
+}
+
+.career2{
+    background-color: green;
+    margin-top: 25px;
+    float: left;
+}
+
+.pic7{
+    float:right;
+    padding:10px;
+}
+
+.pic8{
+    float:right;
+    padding:10px;
+}
+
+.career3{
+    background-color: green;
+    margin-top: 25px;
+    float: left;
