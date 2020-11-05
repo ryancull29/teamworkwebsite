@@ -1,0 +1,123 @@
+body{
+	background-color: #353635;
+}
+
+.headerWrapper {
+	background-color: lime;
+}
+
+.logo {
+	
+	float: left;
+
+}
+
+li {
+	
+	margin: 5px;
+}
+
+a{
+	
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+}
+
+.nav {
+
+	float: right;
+	margin-right: 30px;
+	background-color: lime;
+	margin-top: 50px;
+}
+
+.mainNav {
+	list-style: none;
+	padding: 0;
+	display:inline;
+	text-decoration: none;
+}
+
+.mainNav > li {
+	
+	display:inline;
+}
+
+.dropdown {
+	
+	position: absolute;
+	display:none;
+	background-color: green;
+	padding: 10px;
+
+	
+}
+
+
+li:hover .dropdown{
+	
+	display:block;
+	list-style-type:none;
+	
+}
+
+.contactForm{
+	width: 500px;
+	margin-left: 10px;
+	margin-top: 200px;
+	float: left;
+	background-color: red;
+	
+
+}
+
+.h4{
+	font-family: Helvetica;
+}
+
+input{
+	padding:10px;
+	font-size: inherit;
+
+}
+
+input[type="text"]{
+	display:block;
+	margin-bottom: 25px;
+	width:85%;
+}
+
+.contact{
+	background-color: black;
+	color:white;
+	text-align: center;
+}
+
+
+
+.socialmedia {
+	text-align: center;
+	margin-left:65px;
+	margin-top:120px;
+	width: 500x;
+	height: 675px;
+	float: left;
+	background-color: green;
+	padding:5px;
+	
+
+}
+
+.pic1{
+	padding: 10px;
+	margin-top:10px ;
+	margin-left:205px;
+	float:left;
+}
+
+.pic2{
+	padding: 10px;
+	margin-top: 10px;
+	float: left;
+}
