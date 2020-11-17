@@ -2,8 +2,17 @@ body{
 	background-color: #353635;
 }
 
+.pageHeading {
+	padding-right: 15%;
+	text-align: center;
+	color: white;
+
+}
+
 .headerWrapper {
-	background-color: lime;
+	
+	margin-top: 50px;
+	margin-bottom: 0;
 }
 
 .logo {
@@ -20,7 +29,7 @@ li {
 a{
 	
 	text-decoration: none;
-	color: black;
+	color: white;
 	font-size: 25px;
 }
 
@@ -29,7 +38,7 @@ a{
 	float: right;
 	margin-right: 30px;
 	background-color: lime;
-	margin-top: 50px;
+	margin-top: 0px;
 }
 
 .mainNav {
@@ -62,9 +71,35 @@ li:hover .dropdown{
 	
 }
 
-#mainTable{
-	margin-top: 100px;
+table{
+	align-content: center;
+	margin: auto;
 	float: left;
-	display:block;
 	color:white;
+	width: 100%;
+	padding: 50px 50px 25px 50px;
+	
+	
+}
+
+
+
+table td, table th {
+    border: 1px solid #ddd;
+	padding: 8px;
+	
+}
+  
+
+  
+table tr:hover {
+    background-color: #ddd;
+}
+  
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: lime;
+    color: white;
 }
