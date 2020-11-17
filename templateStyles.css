@@ -11,6 +11,12 @@ body {
 	
 }
 
+.header {
+	
+	height: 150px;
+	
+}
+
 .navbar {
 	overflow: hidden;
 	background-color: lime;
