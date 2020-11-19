@@ -160,3 +160,19 @@ input[type="text"]{
 	margin-top:22px;
 	
 }
+
+
+footer{
+	text-align: center;
+	height:50px;
+
+	background-color:lime;
+	margin-top:25px;
+	margin:auto;
+	width:96%;
+
+}
+
+footer p{
+	color:black;;
+}
