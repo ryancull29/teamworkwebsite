@@ -1,122 +1,98 @@
 
-<!doctype html>
 
-<!-- This is ONLY the template HTML for everyone to use as the foundation for their 
-page. I'll comment everything so everyone understands. Also put comments in where things will
-be different for each page. -->
-
-
+<!DOCTYPE html>
 <html>
 
 	<head>
-	
-		<title>Contact Us Page</title>
-		
-		<link rel="stylesheet"
-			  href="contactStyle.css"<!--insert path to styles-->
-	
-	
+		<link rel="stylesheet" href="contactStyle.css">
+
 	</head>
 	
 	<body>
-	<!-- <section> --> 
-		<div class="headerWrapper"> 
-		
+	
+		<div class="header">
+	
 			<div class="logo">
-				<img src="logo.png" alt="Society Logo">
+				<img  href="home.html" src="logo.png" alt="Society Logo">
 			</div>
-						
-			<div class="nav">
-				<ul class="mainNav">
+
+			<div class="navbar">
+			
+			  <a href="">Home</a>
+			  
+			  <div class="dropdown">
+			  
+				<button class="dropbtn">Contact Us 
+				  <i class="fa fa-caret-down"></i>
+				</button>
 				
-					<li>
-					
-						<a href="index.html">Home</a>
-						
-					</li>
-					
-					
-					
-					<li>
-					
-						<a href="contact.html">Contact Us</a>
-						
-						<div class="dropdown">
-							<ul>
-							
-								<li><a href="#">How to Join</a></li>
-								
-								<li><a href="#">Contact Info</a></li>
-							
-							</ul>
-						</div>
-						
-					</li>
-					
-					
-					
-					<li>
-					
-						<a href="events.html">Events</a>
-						
-						<div class="dropdown">
-							<ul>
-							
-								<li><a href="#">Events</a></li>
-								
-								<li><a href="#">Events Spreadsheet</a></li>
-							
-							</ul>
-						</div>
-						
-					</li>
-					
-					
-					
-					<li>
-					
-						<a>People</a>
-						
-						<div class="dropdown">
-							<ul>
-							
-								<li><a href="#">Leaders</a></li>
-								
-								<li><a href="#">Members</a></li>
-							
-							</ul>
-						</div>
-						
-					</li>
-					
-					
-					<li>
-					
-						<a>About</a>
-						
-						<div class="dropdown">
-							<ul>
-							
-								<li><a href="#">Image Gallery</a></li>
-								
-								<li><a href="#">Resources</a></li>
-								
-								<li><a href="#">Careers</a></li>
-							
-							</ul>
-						</div>
-						
-					</li>
-				</ul>
+				<div class="dropdown-content">
+				
+				  <a href="#">How To Join</a>
+				  <a href="#">Contact Info</a>
+				  
+				</div>
+				
+			  </div>
+			  
+			  <div class="dropdown">
+			  
+				<button class="dropbtn">Events 
+				  <i class="fa fa-caret-down"></i>
+				</button>
+				
+				<div class="dropdown-content">
+				
+				  <a href="#">Events</a>
+				  <a href="#">Events Spreadsheet</a>
+				  
+				</div>
+				
+			  </div>
+			  
+			  <div class="dropdown">
+			  
+				<button class="dropbtn">People 
+				  <i class="fa fa-caret-down"></i>
+				</button>
+				
+				<div class="dropdown-content">
+				
+				  <a href="#">Leaders</a>
+				  <a href="#">Members</a>
+				  
+				</div>
+				
+			  </div>
+			  
+			  <div class="dropdown">
+			  
+				<button class="dropbtn">About 
+				  <i class="fa fa-caret-down"></i>
+				</button>
+				
+				<div class="dropdown-content">
+				
+				  <a href="#">Image Gallery</a>
+				  <a href="#">Resources</a>
+				  <a href="#">Careers</a>
+				  
+				</div>
+				
+			  </div>
+			  
 			</div>
+		
 		</div>
 		
 		
-		<div class="bodyWrapper">
 		
-        </div>
+		<!-- Insert rest of page code -->
+		
+		
+		
 
-	<!-- </section>  -->
+
 
 
 
@@ -157,29 +133,47 @@ be different for each page. -->
 
 <div class="socialmedia">
 	
-	
-			<h1>Social Media</h2>
-			<h2> Facebook - RGU Computing Society </h2>   
-			<h2>Email: compsoc@rguunion.co.uk </h2>      
-			<h2> Twitter- @RGU_CS </h2>    
+	<div class="socials">
+		<h2>Social Media</h2>
+	</div>
+	<h2 onmouseover="this.style.color='red';" onmouseout="this.style.color='black';">Facebook - RGU Computing Soceity</h2>  
+	<h2 onmouseover="this.style.color='red';" onmouseout="this.style.color='black';">Email - compsoc@rguunion.co.uk</h2>    
+	<h2 onmouseover="this.style.color='red';" onmouseout="this.style.color='black';">Twitter - @RGU_CS</h2>       
 			<img src='pic3.jpg' width='300' height='150'>
 			<h2>     </h2>
 			<img src='pic4.jpg' width='300' height='150'>
+			<h2>    </h2>
+			<img src='pic10.jpg' width='300'>
+			
+		
+		
+
 		
 	
 		
-	</div>
+</div>
 	
-	<div class="pic1">
-		<img src='photo1.jpg' width='450' height='310' >
-	</div>
-	<div class="pic2">
-		<img src='pic2.jpg' width='470' height='310' >
-	</div>		
+
+<div class="pic1">
+	<img src='photo1.jpg' width='350' height='210' >
+</div>
+<div class="pic3">
+	<img src='pic9.png' width='350' height='210' >
+</div>
+<div class="pic2">
+	<img src='pic2.jpg' width='350' height='210' >
+</div>
+
 		
     
     
 
 </body>
+	
+<footer>
+	<p>Page Created by The RAM's</p>
+</footer>
+
+
 	
 </html>

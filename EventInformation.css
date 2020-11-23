@@ -1,0 +1,160 @@
+body{
+	background-color: #353635;
+}
+
+.pageHeading {
+	padding-right: 15%;
+	text-align: center;
+	color: white;
+
+}
+
+.headerWrapper {
+	
+	margin-top: 50px;
+	margin-bottom: 0;
+}
+
+.logo {
+	
+	float: left;
+	
+
+}
+
+li {
+	
+	margin: 5px;
+}
+
+a{
+	
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+}
+
+.nav {
+
+	float: right;
+	margin-right: 30px;
+	background-color: lime;
+	margin-top: 0px;
+}
+
+.mainNav {
+	list-style: none;
+	padding: 0;
+	display:inline;
+	text-decoration: none;
+}
+
+.mainNav > li {
+	
+	display:inline;
+}
+
+.dropdown {
+	
+	position: absolute;
+	display:none;
+	background-color: green;
+	padding: 10px;
+
+	
+}
+
+li:hover .dropdown{
+	
+	display:block;
+	list-style-type:none;
+	
+}
+
+
+#firstInformationBox{
+
+	margin-top: 100px;
+}
+
+.informationBox{
+
+	height: 300px;
+	width: 95%;
+	margin:auto;
+	margin-top:25px;
+	background-color: lime;
+	opacity: .8;
+
+}
+
+.informationBox h1,p,img{
+	display: inline;
+}
+
+.pageTopButton{
+	margin-top:50px;
+	color: black;
+}
+
+/*IMAGE CUBES*/
+
+	.cubeWrapper{
+		float:right;
+		margin:50px
+	}
+	.cube{
+		height: 200px;
+		width: 200px;
+		position: relative;
+		transform-style:preserve-3d;
+	/* animation: cube-rotation 5s */;
+	}
+	.cube img{
+		width:200px;
+		height:200px;
+	}
+	.cubeSide{
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+	}
+
+	/*.top{
+		background: blue;
+		transform: rotateX(90deg) translateZ(200px);
+	}
+	.bottom{
+		background: yellow;
+		transform: rotateX(90deg) translateZ(-200px);
+	}*/
+	.right{
+		background: green;
+		transform: rotateY(90deg) translateZ(100px);
+	}
+	.left{
+		background: red;
+		transform: rotateY(270deg) translateZ(100px);
+	}
+	.front{
+		background: violet;
+		transform:  translateZ(100px);
+	}
+	.back{
+		background: brown;
+		transform: rotateY(180deg) translateZ(100px);
+	}
+
+	@keyframes cube-rotation
+		{
+			0%{transform:rotateY(0deg)}
+	
+		100%{
+			transform:rotateY(-90deg )
+		}
+	}

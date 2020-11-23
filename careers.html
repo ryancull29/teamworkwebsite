@@ -1,128 +1,102 @@
 
 
-<!doctype html>
-
-<!-- This is ONLY the template HTML for everyone to use as the foundation for their 
-page. I'll comment everything so everyone understands. Also put comments in where things will
-be different for each page. -->
-
-
+<!DOCTYPE html>
 <html>
 
 	<head>
-	
-		<title><!-- Insert page title here --></title>
-		
-		<link rel="stylesheet"
-			  href="careersStyles.css"<!--insert path to styles-->
-	
-	
+		<link rel="stylesheet" href="careersStyles.css">
+
 	</head>
 	
 	<body>
 	
-		<div class="headerWrapper"> 
-		
+		<div class="header" id=pageTop>
+	
 			<div class="logo">
-				<img src="logo.png" alt="Society Logo">
+				<img  href="home.html" src="logo.png" alt="Society Logo">
 			</div>
-						
-			<div class="nav">
-				<ul class="mainNav">
+
+			<div class="navbar">
+			
+			  <a href="">Home</a>
+			  
+			  <div class="dropdown">
+			  
+				<button class="dropbtn">Contact Us 
+				  <i class="fa fa-caret-down"></i>
+				</button>
 				
-					<li>
-					
-						<a href="index.html">Home</a>
-						
-					</li>
-					
-					
-					
-					<li>
-					
-						<a href="contact.html">Contact Us</a>
-						
-						<div class="dropdown">
-							<ul>
-							
-								<li><a href="#">How to Join</a></li>
-								
-								<li><a href="#">Contact Info</a></li>
-							
-							</ul>
-						</div>
-						
-					</li>
-					
-					
-					
-					<li>
-					
-						<a href="events.html">Events</a>
-						
-						<div class="dropdown">
-							<ul>
-							
-								<li><a href="#">Events</a></li>
-								
-								<li><a href="#">Events Spreadsheet</a></li>
-							
-							</ul>
-						</div>
-						
-					</li>
-					
-					
-					
-					<li>
-					
-						<a>People</a>
-						
-						<div class="dropdown">
-							<ul>
-							
-								<li><a href="#">Leaders</a></li>
-								
-								<li><a href="#">Members</a></li>
-							
-							</ul>
-						</div>
-						
-					</li>
-					
-					
-					<li>
-					
-						<a>About</a>
-						
-						<div class="dropdown">
-							<ul>
-							
-								<li><a href="#">Image Gallery</a></li>
-								
-								<li><a href="#">Resources</a></li>
-								
-								<li><a href="#">Careers</a></li>
-							
-							</ul>
-						</div>
-						
-					</li>
-				</ul>
+				<div class="dropdown-content">
+				
+				  <a href="#">How To Join</a>
+				  <a href="#">Contact Info</a>
+				  
+				</div>
+				
+			  </div>
+			  
+			  <div class="dropdown">
+			  
+				<button class="dropbtn">Events 
+				  <i class="fa fa-caret-down"></i>
+				</button>
+				
+				<div class="dropdown-content">
+				
+				  <a href="#">Events</a>
+				  <a href="#">Events Spreadsheet</a>
+				  
+				</div>
+				
+			  </div>
+			  
+			  <div class="dropdown">
+			  
+				<button class="dropbtn">People 
+				  <i class="fa fa-caret-down"></i>
+				</button>
+				
+				<div class="dropdown-content">
+				
+				  <a href="#">Leaders</a>
+				  <a href="#">Members</a>
+				  
+				</div>
+				
+			  </div>
+			  
+			  <div class="dropdown">
+			  
+				<button class="dropbtn">About 
+				  <i class="fa fa-caret-down"></i>
+				</button>
+				
+				<div class="dropdown-content">
+				
+				  <a href="#">Image Gallery</a>
+				  <a href="#">Resources</a>
+				  <a href="#">Careers</a>
+				  
+				</div>
+				
+			  </div>
+			  
 			</div>
+		
 		</div>
 		
 		
-		<div class="bodyWrapper">
-
-
-    
 		
-        </div>
+		<!-- Insert rest of page code -->
+		
+		
+		
+
+
         
 
 
-<div class="career1"> 
+<div class="career"> 
 
 
 	<h1> Software Developer</h1>
@@ -143,7 +117,7 @@ be different for each page. -->
     
 </div>
 	
-<div class="career2">
+<div class="career">
 
 <h1> Ethical Hacker </h1>
 <h2> Job Description - myworldofwork.co.uk</h2>
@@ -160,7 +134,7 @@ be different for each page. -->
 
 
 
-<div class="career3">
+<div class="career">
 <h1>Teacher - Secondary school - Computing</h1>
 <h2>Job Description - myworldofwork.co.uk</h2>
 <p>Computers and technology are a part of everyday life and the tech industry in Scotland is thriving. To be ready for the workplace, students need to develop computing skills and an understanding of how computer systems work.</p>
@@ -172,14 +146,26 @@ be different for each page. -->
 <p>There is national guidance for Curriculum for Excellence Technologies and National Qualifications, which you'd use when planning your teaching.</p>
 <h2>Salary</h2>
 <h3>Average UK - £39,520</h3>
+</div>
 
-
-
-
-
-
+<div class="pageTopButton">
+	<button type="button" >
+		
+		<a href="#pageTop">Jumpt to  Top</a>
+	</button>
 
 </div>
-	</body>
+
+
+
+
+
+
+
+</body>
+
+<footer>
+	<p>Page Created by The RAM's</p>
+</footer>
 	
 </html>
