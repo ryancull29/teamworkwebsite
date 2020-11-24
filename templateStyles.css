@@ -9,6 +9,7 @@ body {
 	float: left;
 	margin: 30px;
 	width: 400px;
+	margin-left:6%;
 	
 }
 
@@ -29,7 +30,7 @@ body {
 	background-color: lime;
 	float:right;
     margin:40px;
-	margin-right: 60px;
+	margin-right: 6%;
   
 
 }
