@@ -3,6 +3,10 @@
 	text-align: left;
 	margin-top: 70px;
 	height: 300px;
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: lime;
+	padding-top: 10px;
 }
 
 .memberInfoLeft > img {
@@ -17,7 +21,7 @@
 .memberInfoLeft > p {
 	
 	font-size: 20px;
-	color: green;
+	color: black;
 	font-family: "Courier New", Courier, monospace;
 	float: left;
 	width: 75%;
@@ -28,7 +32,7 @@
 .memberInfoLeft > h2{
 	
 	font-family: "Courier New", Courier, monospace;
-	color: green;
+	color: black;
 	font-size: 30px;
 	margin-left: 20px;
 	
@@ -39,6 +43,10 @@
 	text-align: right;
 	padding-bottom: 30px;
 	height: 300px;
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: lime;
+	margin-top: 60px;
 }
 
 .memberInfoRight > img {
@@ -47,13 +55,14 @@
 	position: relative;
 	width: 200px;
 	margin-left: 20px;
+
 	
 }
 
 .memberInfoRight > p {
 	
 	font-size: 20px;
-	color: green;
+	color: black;
 	font-family: "Courier New", Courier, monospace;
 	float: right;
 	width: 75%;
@@ -65,7 +74,7 @@
 .memberInfoRight > h2{
 	
 	font-family: "Courier New", Courier, monospace;
-	color: green;
+	color: black;
 	font-size: 30px;
 	margin-left: 20px;
 	float: left;
