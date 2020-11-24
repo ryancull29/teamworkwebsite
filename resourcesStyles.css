@@ -1,1 +1,45 @@
+.resource {
+	
+	text-align: left;
+	margin-top: 70px;
+	height: 300px;
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: lime;
+	padding-top: 10px;
+}
 
+.resource > img {
+	
+	float:right;
+	position: relative;
+	width: 200px;
+	margin-right: 20px;
+	
+}
+
+.resource > p {
+	
+	font-size: 23px;
+	color: black;
+	font-family: "Courier New", Courier, monospace;
+	float: left;
+	width: 75%;
+	margin-left: 20px;
+	
+}
+
+.resource > h2{
+	
+	font-family: "Courier New", Courier, monospace;
+	color: black;
+	font-size: 30px;
+	margin-left: 20px;
+	
+}
+
+h1{
+	
+	text-align: center;
+	font-size: 50px;
+}
