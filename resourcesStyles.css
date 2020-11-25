@@ -32,9 +32,10 @@
 .resource > h2{
 	
 	font-family: "Courier New", Courier, monospace;
-	color: black;
+	color: white;
 	font-size: 30px;
 	margin-left: 20px;
+	text-shadow: 1px 1px black;
 	
 }
 
@@ -42,4 +43,5 @@ h1{
 	
 	text-align: center;
 	font-size: 50px;
+	color: white;
 }
