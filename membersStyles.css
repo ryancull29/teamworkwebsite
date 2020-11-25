@@ -100,8 +100,6 @@ h1{
 
 }
 
-
-
 .pageTopButton button{
 	height: 50px;
 	width: 500px;
@@ -116,4 +114,18 @@ h1{
 .pageTopButton a:visited {
 	color: white;
 	text-decoration: none;
+}
+
+
+footer{
+	text-align: center;
+	
+	height: 50px;
+	padding-top: 10px;
+	background-color: lime;
+	margin-top: 25px;
+}
+
+footer p{
+	color: white;
 }
