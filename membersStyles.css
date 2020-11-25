@@ -32,9 +32,10 @@
 .memberInfoLeft > h2{
 	
 	font-family: "Courier New", Courier, monospace;
-	color: black;
+	color: white;
 	font-size: 30px;
 	margin-left: 20px;
+	text-shadow: 1px 1px black;
 	
 }
 
@@ -47,6 +48,7 @@
 	margin-right: 5%;
 	background-color: lime;
 	margin-top: 60px;
+	text-align: left;
 }
 
 .memberInfoRight > img {
@@ -74,11 +76,12 @@
 .memberInfoRight > h2{
 	
 	font-family: "Courier New", Courier, monospace;
-	color: black;
+	color: white;
 	font-size: 30px;
 	margin-left: 20px;
 	float: left;
 	margin-bottom: 30px;
+	text-shadow: 1px 1px black;
 	
 }
 
@@ -86,5 +89,31 @@ h1{
 	
 	text-align: center;
 	font-size: 50px;
+	color: white;
 }
 
+.pageTopButton{
+	display: flex;
+	margin-top:25px;
+	justify-content: center;
+	
+
+}
+
+
+
+.pageTopButton button{
+	height: 50px;
+	width: 500px;
+	background-color:lime;
+}
+.pageTopButton a:link {
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+  }
+
+.pageTopButton a:visited {
+	color: white;
+	text-decoration: none;
+}
