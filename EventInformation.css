@@ -1,9 +1,14 @@
 
 
-.pageHeading {
+#pageHeading {
 
 	text-align: center;
 	color: white;
+	font-size: 50px;
+	font-family: 'Courier New', Courier;
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom: 35px;
 
 }
 body {
@@ -11,6 +16,8 @@ body {
 	font-family: "Courier New", Courier, monospace;
 
 }
+
+
 
 .logo{
 	
@@ -27,9 +34,7 @@ body {
 	
 }
 
-.header h1 {
-	font-size: 50px;
-}
+
 
 .navbar {
 	overflow: hidden;
@@ -95,13 +100,21 @@ body {
 	display: block;
 }
 
-
+#invertColoursButton{
+	width:200px;
+	height: 40px;
+	margin-top:100px;
+	margin-left: -10.5%;
+	font-size: 15px;
+	font-weight: bold;
+	
+}
 /* ----------------------------------------------------------------------------------------- */
 /*INFORMATION BOXES*/
 
 #firstInformationBox{
 
-	margin-top: 150px;
+	margin-top: 50px;
 }
 
 .informationBox{
@@ -114,7 +127,18 @@ body {
 	
 
 }
+.animationInformation{
+	
+	font-size: 15px;
+	height: 10px;
+	width: 200px;
+	float: right;
+	margin-right: 50px;
 
+	margin-top: 30px;
+
+	
+}
 .informationBox h1{
 	font-size: 40px;
 	padding-top: 10px;
@@ -123,7 +147,7 @@ body {
 
 }
 
-.informationBox p{
+.informationBoxBody {
 	font-size: 20px;
 }
 

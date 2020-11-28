@@ -8,7 +8,7 @@
 
 	<head>
 	
-		<title>RGU Computing Society - Event Information</title>
+		<title>RGU Computing Society - Event Calender</title>
 		
 		<link rel="stylesheet"
 			  href="EventCalenderStyles.css">
@@ -16,12 +16,29 @@
 	
 	</head>
 	
-	<body>
+	<body id="wholePage">
 
 		<div class="header" id="pageTop">
-			<div class="pageHeading">
-				<h1>Event Information</h1>
-			</div>	
+			
+			<div id="pageHeading">
+
+			</div>
+		
+			<script type="text/javascript">
+				let i=0,text;
+				text = "Event Calender"
+		
+				function typing(){
+					if(i<text.length){
+						document.getElementById("pageHeading").innerHTML+=text.charAt(i);
+						i++;
+						setTimeout(typing,50);
+					}
+				}
+				typing()
+			</script>
+
+
 			<div class="logo">
 				<img  href="home.html" src="logo.png" alt="Society Logo">
 			</div>
@@ -95,6 +112,20 @@
 		
 		</div>
 		
+		<button onclick="colourInversion()" id="invertColoursButton">
+			Toggle Invert Colours
+		</button >
+
+		<script>
+			function colourInversion() {
+			  var x = document.getElementById("wholePage");
+			  if (x.style.filter === "invert(0%)") {
+				x.style.filter = "invert(100%)";
+			  } else {
+				x.style.filter = "invert(0%)";
+			  }
+			}
+		</script>
 		
 		
 		
@@ -126,6 +157,6 @@
 
 	<footer>
 		<p>Page created by The RAM's</p>
-	</footer>>
+	</footer>
 
 </html>
