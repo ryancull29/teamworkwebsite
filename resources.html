@@ -12,7 +12,25 @@
 	
 	<body>
 	
-		<h1>Useful Resources</h1>
+		<div id="pageHeading">
+		
+		</div>
+		
+		
+		<script type="text/javascript">
+			let i=0,text;
+			text = "Useful Resources"
+	
+			function typing(){
+				if(i<text.length){
+					document.getElementById("pageHeading").innerHTML+=text.charAt(i);
+					i++;
+					setTimeout(typing,50);
+				}
+			}
+			typing()
+		</script>
+		
 	
 		<div class="header">
 	
@@ -101,7 +119,7 @@
 			quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores 
 			eos qui ratione voluptatem sequi nesciunt.</br></br>
 			
-			Link: https://www.python.org/
+			Link: <a href="https://www.python.org/ ">https://www.python.org/</a>
 			</p>
 			
 			<img src="facebook-default-no-profile-pic.jpg" alt="mark">
@@ -113,14 +131,31 @@
 		
 			<h2> Visual Studio </h2>
 			
-			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-			doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis
-			et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem 
-			quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores 
-			eos qui ratione voluptatem sequi nesciunt.
+			<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+			nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea 
+			voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo 
+			voluptas nulla pariatur?
 			</br></br>
 			
-			Link: https://visualstudio.microsoft.com/
+			Link: <a href="https://notepad-plus-plus.org/ ">https://visualstudio.microsoft.com/</a>
+			</p>
+			
+			<img src="facebook-default-no-profile-pic.jpg" alt="mark">
+		
+		
+		</div>
+		
+		<div class="resource">
+		
+			<h2> Notepad++ </h2>
+			
+			<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed 
+			quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro 
+			quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia 
+			non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+			</br></br>
+			
+			Link: <a href="https://notepad-plus-plus.org/">https://notepad-plus-plus.org/</a>
 			</p>
 			
 			<img src="facebook-default-no-profile-pic.jpg" alt="mark">
@@ -131,7 +166,7 @@
 		<div class="pageTopButton">
 		
 			<button type="button" >
-				<a href="#pageTop">Jump to  Top</a>
+				<a href="#pageHeading">Jump to  Top</a>
 			</button>
 			
 		</div>
@@ -144,29 +179,5 @@
 		<p>Page created by The RAM's</p>
 		
 	</footer>
-	
-	
-	<script type="text/javascript">
-		var i=0, text;
-		text = "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-			doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis
-			et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem 
-			quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores 
-			eos qui ratione voluptatem sequi nesciunt.
-			</br></br>
-			
-			Link: https://visualstudio.microsoft.com/
-			</p>"
-		
-		function typing() {
-		
-			if(i<text.length){
-			
-				document.getElementById("text").innerHTML += text.charAt(i);
-				i++;
-				setTimeout(typing,50);
-		}
-		typing();
-	</script>
 
 </html>
