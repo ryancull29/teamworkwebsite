@@ -16,33 +16,30 @@
 		<div id="pageHeading">
 		
 		</div>
-		
-					  
-		<script type="text/javascript">
-			let i=0,text;
-			text = "How To Join"
 	
-			function typing(){
-				if(i<text.length){
-					document.getElementById("pageHeading").innerHTML+=text.charAt(i);
-					i++;
-					setTimeout(typing,50);
-				}
-			}
-			typing()
-		</script>
-	
-		
-		
 		<div class="header">
+		
+			<script type="text/javascript">
+				let i=0,text;
+				text = "HowToJoin"
+		
+				function typing(){
+					if(i<text.length){
+						document.getElementById("pageHeading").innerHTML+=text.charAt(i);
+						i++;
+						setTimeout(typing,50);
+					}
+				}
+				typing()
+			</script>
 	
 			<div class="logo">
-				<img  href="home.html" src="logo.png" alt="Society Logo">
+				<img  href="index.html" src="logo.png" alt="Society Logo">
 			</div>
 
 			<div class="navbar">
 			
-			  <a href="home.html">Home</a>
+			  <a href="index.html">Home</a>
 			  
 			  <div class="dropdown">
 			  
@@ -125,6 +122,21 @@
 			</div>
 		
 		</div>
+		
+				<button onclick="colourInversion()" id="invertColoursButton">
+			Toggle Invert Colours
+		</button >
+
+		<script>
+			function colourInversion() {
+			  var x = document.getElementById("wholePage");
+			  if (x.style.filter === "invert(0%)") {
+				x.style.filter = "invert(100%)";
+			  } else {
+				x.style.filter = "invert(0%)";
+			  }
+			}
+		</script>
 		
 		<div class="main">
 		
