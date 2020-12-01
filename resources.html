@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html>
+<html id="wholePage">
 
 	<head>
 	
@@ -66,7 +66,7 @@
 				<div class="dropdown-content">
 				
 				  <a href="EventInformation.html">Events</a>
-				  <a href="eventsSpreadsheet.html">Events Spreadsheet</a>
+				  <a href="eventCalendar.html">Events Spreadsheet</a>
 				  
 				</div>
 				
@@ -95,7 +95,7 @@
 				
 				<div class="dropdown-content">
 				
-				  <a href="image.html">Image Gallery</a>
+				  <a href="imagegallery.html">Image Gallery</a>
 				  <a href="resources.html">Resources</a>
 				  <a href="careers.html">Careers</a>
 				  
@@ -107,17 +107,35 @@
 		
 		</div>
 		
+		<button onclick="colourInversion()" id="invertColoursButton">
+			Toggle Invert Colours
+		</button >
+
+		<script>
+			function colourInversion() {
+			  var x = document.getElementById("wholePage");
+			  if (x.style.filter === "invert(0%)") {
+				x.style.filter = "invert(100%)";
+			  } else {
+				x.style.filter = "invert(0%)";
+			  }
+			}
+		</script>
+		
+		
 		<div class="main">
 		
 		<div class="resource">
 		
 			<h2> Python </h2>
 			
-			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-			doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis
-			et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem 
-			quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores 
-			eos qui ratione voluptatem sequi nesciunt.</br></br>
+			<p>Python is an interpreted, object-oriented, high-level programming language with 
+			dynamic semantics. Its high-level built in data structures, combined with dynamic 
+			typing and dynamic binding, make it very attractive for Rapid Application Development,
+			as well as for use as a scripting or glue language to connect existing components 
+			together. Python's simple, easy to learn syntax emphasizes readability and therefore 
+			reduces the cost of program maintenance.
+			</br></br>
 			
 			Link: <a href="https://www.python.org/ ">https://www.python.org/</a>
 			</p>
@@ -131,10 +149,11 @@
 		
 			<h2> Visual Studio </h2>
 			
-			<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
-			nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea 
-			voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo 
-			voluptas nulla pariatur?
+			<p>Microsoft Visual Studio is an integrated development environment (IDE) from Microsoft. It 
+			is used to develop computer programs, as well as websites, web apps, web services and mobile 
+			apps. Visual Studio includes a code editor supporting IntelliSense 
+			(the code completion component) as well as code refactoring. The integrated debugger works both 
+			as a source-level debugger and a machine-level debugger.
 			</br></br>
 			
 			Link: <a href="https://notepad-plus-plus.org/ ">https://visualstudio.microsoft.com/</a>
@@ -149,10 +168,11 @@
 		
 			<h2> Notepad++ </h2>
 			
-			<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed 
-			quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro 
-			quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia 
-			non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+			<p>Notepad++ is a free source code editor and 
+			Notepad replacement that supports several languages. Running in the MS Windows environment, its 
+			use is governed by GNU General Public License. Based on the powerful editing component Scintilla,
+			Notepad++ is written in C++ and uses pure Win32 API and STL which ensures a higher execution speed 
+			and smaller program size.
 			</br></br>
 			
 			Link: <a href="https://notepad-plus-plus.org/">https://notepad-plus-plus.org/</a>
