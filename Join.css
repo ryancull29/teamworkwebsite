@@ -113,8 +113,6 @@
 	display: flex;
 	margin-top:25px;
 	justify-content: center;
-	
-
 }
 
 .pageTopButton button{
@@ -138,7 +136,12 @@
 	display: flex;
 	margin-top:70px;
 	justify-content: center;
+}
 
+.pagedownload p{
+	color: white;
+	font-size: 20px;
+	margin-top: 10px;
 }
 
 .pagedownload button{
