@@ -8,16 +8,10 @@ body {
 	
 	float: left;
 	margin: 30px;
-	width: 400px;
 	margin-left:6%;
 	
 }
 
-.logo > img {
-	
-	width: 250px;
-	
-}
 
 .header {
 	
@@ -42,7 +36,6 @@ body {
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-	font-weight: bold;
 }
 
 .dropdown {
@@ -59,7 +52,6 @@ body {
 	background-color: inherit;
 	font-family: inherit;
 	margin: 0;
-	font-weight: bold;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
