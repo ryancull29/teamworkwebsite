@@ -20,6 +20,16 @@
 	
 }
 
+
+#invertColoursButton{
+	width:200px;
+	height: 40px;
+	margin-top:10px;
+	margin-left: 90px;
+	font-size: 15px;
+	font-weight: bold;
+	
+}
 .memberInfoLeft > p {
 	
 	font-size: 20px;
