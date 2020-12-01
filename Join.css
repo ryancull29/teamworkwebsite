@@ -134,6 +134,33 @@
 }
 
 
+.pagedownload{
+	display: flex;
+	margin-top:50px;
+	justify-content: center;
+
+}
+
+.pagedownload button{
+	height: 50px;
+	width: 500px;
+	background-color:lime;
+}
+.pagedownload a:link {
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+  }
+
+.pagedownload a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+
+
+
+
 footer{
 	text-align: center;
 	
